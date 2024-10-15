@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100dvh;
 }
 
 header .login {
@@ -37,10 +38,7 @@ header .login {
     color: white;
     background-image: linear-gradient(to right, #503345, #203257);
     border: solid 2px rgba(0, 0, 0, 0.349);
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right: 4dvh;
+    padding: 4px 4dvh 4px 4px;
 }
 
 #senha {
@@ -48,10 +46,7 @@ header .login {
     color: white;
     background-image: linear-gradient(to right, #503345, #203257);
     border: solid 2px rgba(0, 0, 0, 0.349);
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right: 4dvh;
+    padding: 4px 4dvh 4px 4px;
     margin-top: 10px;
 }
 
@@ -67,5 +62,5 @@ nav .entrar {
     color: white;
     font-weight: bold;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329);
-    padding: 4px 77px;
+    padding: 0.3rem 4.7rem;
 }
